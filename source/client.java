@@ -13,7 +13,7 @@ public class ClientChat{
 		String msgRicevuto;
 		try{
 			connessione = new Socket(server, port);
-			System.out.println(“Connessione eseguita.");
+			System.out.println("Connessione eseguita.");
 		}catch(IOException e){
 			System.out.println(e);
 			System.exit(-1);
